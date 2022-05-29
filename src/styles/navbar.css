@@ -1,0 +1,31 @@
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 50px;
+
+}
+.navitem{
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+display: flex;
+align-items: center;
+   
+}
+.navitem a{
+        text-decoration: none;
+        font-size: 30px;
+        width: 300px;
+
+}
+.navitem a:hover{
+    background-color: rgb(125, 125, 125);
+    color: rgb(25, 25, 25);
+
+}
+.ionicon{
+  height: 80px;
+}
+.ionicon:hover{
+  cursor: pointer;
+}
