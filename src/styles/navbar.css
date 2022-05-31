@@ -2,30 +2,55 @@
     position: fixed;
     left: 0;
     top: 50px;
-
+   background-color: transparent;
+}
+.navbar>ul{
+  background-color: transparent;
 }
 .navitem{
     padding: 10px;
     margin: 10px;
-    width: 200px;
 display: flex;
-align-items: center;
-   
+background-color: transparent;
+
 }
 .navitem a{
         text-decoration: none;
         font-size: 30px;
-        width: 300px;
 
+    border-radius: 5px;
+  width: 150px;
+  text-align: end;
+  padding: 20px;
 }
-.navitem a:hover{
+.active{
+  animation: show 2s ease-in-out; 
+  visibility: visible;
+}
+ @keyframes show{
+  0%{
+    visibility: hidden;
+    transform: translateX(-150px);
+opacity: 0;
+color: transparent;
+  }
+  50%{
+opacity: 0.5;
+  }
+  100%{
+  transform: translateX(0px);
+visibility: visible;
+  }} 
+ .navitem a:hover{
     background-color: rgb(125, 125, 125);
     color: rgb(25, 25, 25);
-
-}
+} 
 .ionicon{
   height: 80px;
+  border-radius: 5px;
+  z-index: 2;
 }
 .ionicon:hover{
   cursor: pointer;
+  z-index: 2;
 }
