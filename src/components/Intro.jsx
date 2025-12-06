@@ -4,7 +4,7 @@ import "../styles/intro.css"
 
 function Intro() {
   return (
-    <div>
+    <div id="home">
 <img src={poes} alt="poes"  />
 
     </div>

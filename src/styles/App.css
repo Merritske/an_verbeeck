@@ -8,3 +8,10 @@
   text-align: center;
   background-color: rgb(25, 25, 25);
 }
+@media screen and (width:650px) {
+ .App{
+  width: 600px;
+  text-align: center;
+ }
+
+}
